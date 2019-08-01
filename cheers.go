@@ -300,7 +300,8 @@ mainloop:
 				Width = ev.Width
 				Height = ev.Height
 			}
-		default:
+		default: 
+
 			allSprites.Update()
 			allSprites.Render()
 			time.Sleep(50 * time.Millisecond)
